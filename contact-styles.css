@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.nav-div{
+    background-color: #0E0F10;
+    height: 100%;
+    padding: 1rem 0rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #292929;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.nav-bar{
+    background-color: #0E0F10;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav{
+    color: #FFFFFF;
+}
+
+.rectangle-div{
+    width: 53px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.nav-bar ul{
+    display: flex;
+    margin-top: 20px;
+    gap: 1rem;
+}
+
+.nav-item{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;    
+}
+
+.nav-bar .icon{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.body{
+    background: #0E0F10;
+    height: 100%;
+    width: 100%;
+}
+.main-page .heading{
+    width: max-content;
+    margin: auto;
+}
+
+.main-page .heading-text{
+    font-family: League Spartan;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(90deg, #A99D61 0%, #FEED95 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.footer{
+    background: #121213;
+}
+
+.footer-internal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .brand-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .info-icons{
+    display: flex;
+    gap: 1rem;
+    width: max-content;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.footer .faq-list{
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.submit-form{
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 2px 4px 4px 0px #00000040;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
+    background: linear-gradient(90deg, #A99D61 0%, #FEED95 100%);
+}
+
+.bottom-form-submit{
+    width: 100%;
+}
+
+.other-queries{
+    border: 2px solid #404040;
+    width: max-content;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: -15px;
+    background-color: #0E0F10;
+}
+
+.other-queries .email{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.other-queries .txt{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(90deg, #A99D61 0%, #FEED95 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width:900px){
+    .faq-list{
+        flex-direction: column !important;
+    }
+
+    .form-div{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .name-form{
+        width: 100% !important;
+    }
+
+    .email-form{
+        width: 100% !important;
+    }
+
+    .small-input-div{
+        width: 100% !important;
+    }
+
+    form{
+        width: 100% !important;
+    }
+
+    form .top-form{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    form .small-input-div{
+        width: 100% !important;
+    }
+
+    .form-control{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .search-tab button{
+        display: none;
+        z-index: -1;
+    }
+
+    .search-tab{
+        width: 100%;
+        padding-left: 0.5rem;
+    }
+
+    .nav-bar .icon{
+        gap: 0.5rem;
+    }
+
+}
